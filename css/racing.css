@@ -1,0 +1,38 @@
+.primary {
+  color: #3498db;
+}
+.secondary {
+  color: #2ecc71;
+}
+.tertiary {
+  color: #e74c3c;
+}
+.background {
+  background-color: #ecf0f1;
+}
+.text {
+  color: #2c3e50;
+}
+.about_main .collection_section {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+}
+.about_main .collection_section .container .new_text {
+  width: 100%;
+  float: left;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #0c0c0c;
+}
+.about_main .collection_section .container .consectetur_text {
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #0c0c0c;
+  margin-left: 0px;
+  padding-bottom: 10px;
+}

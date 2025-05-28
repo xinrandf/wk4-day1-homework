@@ -1,0 +1,15 @@
+@import "colors.less";
+
+@font-primary: 'Poppins', sans-serif;
+@font-secondary: 'Syncopate', 'Arial', sans-serif;
+
+// Font weight variables
+@font-weight-regular: 400;
+@font-weight-bold: 700;
+
+// Mixin for font style
+.font-style(@size, @weight: @font-weight-regular, @family: @font-primary) {
+    font-size: @size;
+    font-weight: @weight;
+    font-family: @family;
+}
