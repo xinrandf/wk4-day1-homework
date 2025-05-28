@@ -1,27 +1,127 @@
 @import "colors.less";
 @import "fonts.less";
 
+// Main header bar
+.header-bar {
+    background: #c94b5c;
+    padding: 30px 0;
+    text-align: center;
+
+    h1 {
+        .font-style(3em, @font-weight-bold, @font-secondary);
+        color: #fff;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+}
+
+// Main content
 .about_main {
+    padding: 40px 0 0 0;
+
     .collection_section {
         width: 100%;
-        float: left;
-        margin-top: 40px;
+        margin: 0 auto 40px auto;
+        max-width: 1100px;
 
         .container {
             .new_text {
-                width: 100%;
-                float: left;
-                .font-style(22px, @font-weight-bold, @font-primary);
-                color: rgba(12, 12, 12, 1);
+                .font-style(2em, @font-weight-bold, @font-primary);
+                margin-bottom: 10px;
             }
             .consectetur_text {
-                width: 100%;
-                float: left;
-                .font-style(12px, @font-weight-regular, @font-primary);
-                color: rgba(12, 12, 12, 1);
-                margin-left: 0px;
-                padding-bottom: 10px;
+                .font-style(1em, @font-weight-regular, @font-primary);
+                color: #444;
+                margin-bottom: 30px;
             }
         }
     }
+
+    .collection_section_3 {
+        max-width: 1100px;
+        margin: 0 auto;
+        background: #eceaea;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0 40px 0;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .racing_shoes {
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                .shoes-img3 {
+                    flex: 1;
+                    text-align: center;
+
+                    img {
+                        width: 80%;
+                        max-width: 400px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+
+                .collection_texts {
+                    flex: 1;
+                    padding-left: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .sale_text {
+                        .font-style(2em, @font-weight-bold, @font-primary);
+                        color: #c94b5c;
+                        margin-bottom: 10px;
+                    }
+                    .jogging_text {
+                        .font-style(2em, @font-weight-bold, @font-primary);
+                        color: #222;
+                        margin-bottom: 10px;
+                    }
+                    .shoes_text {
+                        .font-style(2em, @font-weight-bold, @font-primary);
+                        color: #c94b5c;
+                        margin-bottom: 10px;
+                    }
+                    .number_text {
+                        .font-style(2em, @font-weight-bold, @font-primary);
+                        color: #c94b5c;
+                        margin-bottom: 20px;
+                    }
+                    .seemore {
+                        background: #c94b5c;
+                        color: #fff;
+                        border: none;
+                        border-radius: 3px;
+                        padding: 10px 30px;
+                        font-size: 1.2em;
+                        margin-top: 10px;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                        &:hover {
+                            background: darken(#c94b5c, 10%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Footer
+.footer-bar {
+    background: #c94b5c;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    margin-top: 40px;
 }

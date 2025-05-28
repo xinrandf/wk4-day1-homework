@@ -13,26 +13,124 @@
 .text {
   color: #2c3e50;
 }
+.header-bar {
+  background: #c94b5c;
+  padding: 30px 0;
+  text-align: center;
+}
+.header-bar h1 {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: 'Syncopate', 'Arial', sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.about_main {
+  padding: 40px 0 0 0;
+}
 .about_main .collection_section {
   width: 100%;
-  float: left;
-  margin-top: 40px;
+  margin: 0 auto 40px auto;
+  max-width: 1100px;
 }
 .about_main .collection_section .container .new_text {
-  width: 100%;
-  float: left;
-  font-size: 22px;
+  font-size: 2em;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
+  margin-bottom: 10px;
 }
 .about_main .collection_section .container .consectetur_text {
-  width: 100%;
-  float: left;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
-  margin-left: 0px;
-  padding-bottom: 10px;
+  color: #444;
+  margin-bottom: 30px;
+}
+.about_main .collection_section_3 {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #eceaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0 40px 0;
+}
+.about_main .collection_section_3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.about_main .collection_section_3 .container .racing_shoes {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.about_main .collection_section_3 .container .racing_shoes .shoes-img3 {
+  flex: 1;
+  text-align: center;
+}
+.about_main .collection_section_3 .container .racing_shoes .shoes-img3 img {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts {
+  flex: 1;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .sale_text {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #c94b5c;
+  margin-bottom: 10px;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .jogging_text {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  margin-bottom: 10px;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .shoes_text {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #c94b5c;
+  margin-bottom: 10px;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .number_text {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #c94b5c;
+  margin-bottom: 20px;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .seemore {
+  background: #c94b5c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.about_main .collection_section_3 .container .racing_shoes .collection_texts .seemore:hover {
+  background: #ad3444;
+}
+.footer-bar {
+  background: #c94b5c;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1em;
+  margin-top: 40px;
 }
